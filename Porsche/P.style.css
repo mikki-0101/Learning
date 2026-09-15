@@ -1,0 +1,88 @@
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body {
+height: 100%;
+width: 100%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main{
+    height: 90%;
+    width: 90%;
+ background-color: white;
+ /* display: flex;
+ justify-content: center; */
+ 
+}
+nav{
+    margin-top: 50px;
+    margin-left: 90px;
+    height: 10%;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Logo{
+    height: 100%;
+}
+button{
+    height: 50px;
+    width: 200px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.taycan{
+    height: 60%;
+    width: 75%;
+    margin: 50px 12%;
+    background-color: black;
+}
+#car{
+    height: 100%;
+    width: 100%
+}
+.footer{
+    margin-left: 150px;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    gap:50px;
+     /* background-color: rgb(197, 35, 35); */
+    justify-items: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.name{
+    margin-left: 150px;
+}
+.name h1{
+color: #6C7573;
+}
+.grey{
+    
+    color: #868889;
+}
+.divider{
+    width: 1px;
+    height: 70px;
+    background-color: black;
+}
+.footer img{
+    margin-left: 10px;
+    width: 500px;
+    height: 150px;
+
+}
+
+
